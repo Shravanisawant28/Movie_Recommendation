@@ -1,3 +1,10 @@
+"""
+Movie Recommendation System using Streamlit, Pandas, Pickle, and OMDb API.
+
+🔹 Select a movie from the dropdown
+🔹 Get 5 similar movie recommendations
+🔹 Posters are fetched using OMDb API
+"""
 import streamlit as st
 import pandas as pd
 import pickle
